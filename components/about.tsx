@@ -40,7 +40,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
                 src={profilepic}
-                alt="Professional headshot"
+                alt="Professional headshot of Suman Sapkota" // MODIFIED LINE
                 width={600}
                 height={800}
                 className="object-cover w-full h-auto transition-transform duration-700 group-hover:scale-105"
