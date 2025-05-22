@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://yourdomain.com", // Placeholder URL
+    url: "https://www.sapkota-suman.com.np/", // Placeholder URL
   },
 };
 
