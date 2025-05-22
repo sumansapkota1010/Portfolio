@@ -15,14 +15,14 @@ export const metadata: Metadata = {
       "Welcome to the portfolio of Suman Sapkota, a Full-Stack Web Developer from Nepal. Explore my projects and skills in creating dynamic web applications.",
     images: [
       {
-        url: "/pp.jpg",
+        url: "/pp.jpg", // Assuming pp.jpg is in public folder
         width: 800,
         height: 600,
         alt: "Suman Sapkota Profile Picture",
       },
     ],
     type: "website",
-    url: "https://www.sapkota-suman.com.np/",
+    url: "https://yourdomain.com", // Placeholder URL
   },
 };
 
@@ -34,6 +34,37 @@ export default function Home() {
       <Projects />
       <Skills />
       <Contact />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Suman Sapkota",
+            jobTitle: "Full-Stack Web Developer",
+            nationality: "Nepalese",
+            url: "https://yourdomain.com", // Placeholder URL
+            image: "/pp.jpg",
+            sameAs: [
+              // "https://www.linkedin.com/in/sumansapkota/",
+              // "https://github.com/sumansapkota1010"
+            ],
+            knowsAbout: [
+              "Web Development",
+              "Full-Stack Development",
+              "MERN Stack",
+              "React.js",
+              "Next.js",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "JavaScript",
+              "TypeScript",
+              "Tailwind CSS",
+            ],
+          }),
+        }}
+      />
     </>
   );
 }
