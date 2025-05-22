@@ -56,6 +56,9 @@ export default function Skills() {
             My Expertise
           </span>
           <h2 className="text-4xl md:text-5xl font-bold">Technical Skills</h2>
+          <p className="text-lg text-gray-600 dark:text-gray-300 mt-4 mb-12 max-w-2xl mx-auto">
+            I possess a versatile set of technical skills spanning the full web development stack, enabling me to build robust and user-friendly applications. My expertise includes:
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-10">
@@ -81,6 +84,9 @@ export default function Skills() {
               </svg>
             </div>
             <h3 className="text-xl font-bold mb-6">Frontend Development</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              Crafting responsive, accessible, and engaging user interfaces with a focus on modern JavaScript frameworks and efficient styling solutions.
+            </p>
             <motion.div
               variants={container}
               initial="hidden"
@@ -124,6 +130,9 @@ export default function Skills() {
               </svg>
             </div>
             <h3 className="text-xl font-bold mb-6">Backend Development</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              Building secure, scalable, and efficient server-side applications and APIs to power dynamic web experiences.
+            </p>
             <motion.div
               variants={container}
               initial="hidden"
@@ -168,6 +177,9 @@ export default function Skills() {
               </svg>
             </div>
             <h3 className="text-xl font-bold mb-6">Tools & Technologies</h3>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              Utilizing a range of industry-standard tools and platforms to streamline development workflows, ensure code quality, and deliver polished products.
+            </p>
             <motion.div
               variants={container}
               initial="hidden"
