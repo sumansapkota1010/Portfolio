@@ -9,8 +9,23 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Suman Sapkota",
-  description: "Professional portfolio showcasing projects and skills",
+  title: {
+    template: "%s | Suman Sapkota - Web Developer",
+    default: "Suman Sapkota - Web Developer", // Add a default title
+  },
+  description:
+    "Suman Sapkota is a passionate Full-Stack Web Developer from Nepal, specializing in building modern and responsive web applications.",
+  keywords: [
+    "Suman Sapkota",
+    "Web Developer",
+    "Full-Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "Web Development Nepal",
+    "Portfolio",
+  ],
   generator: "v0.dev",
 };
 
