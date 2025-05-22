@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   generator: "v0.dev",
+  verification: {
+    google: "xKcKdJLLw2JxwW1beGFrFohVlriLBCf-woZTLUFCH_k",
+  },
 };
 
 export default function RootLayout({
